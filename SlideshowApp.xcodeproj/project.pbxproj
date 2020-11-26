@@ -11,8 +11,9 @@
 		ACA00D7925680AB800A7A885 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACA00D7825680AB800A7A885 /* SceneDelegate.swift */; };
 		ACA00D7B25680AB800A7A885 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACA00D7A25680AB800A7A885 /* ViewController.swift */; };
 		ACA00D7E25680AB800A7A885 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ACA00D7C25680AB800A7A885 /* Main.storyboard */; };
-		ACA00D8025680ABB00A7A885 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ACA00D7F25680ABB00A7A885 /* Assets.xcassets */; };
 		ACA00D8325680ABB00A7A885 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ACA00D8125680ABB00A7A885 /* LaunchScreen.storyboard */; };
+		ACA00DA52568960200A7A885 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ACA00D7F25680ABB00A7A885 /* Assets.xcassets */; };
+		ACA00DA92569071000A7A885 /* KakudaiViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACA00DA82569071000A7A885 /* KakudaiViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		ACA00D7F25680ABB00A7A885 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		ACA00D8225680ABB00A7A885 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		ACA00D8425680ABB00A7A885 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ACA00DA82569071000A7A885 /* KakudaiViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KakudaiViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 				ACA00D7625680AB800A7A885 /* AppDelegate.swift */,
 				ACA00D7825680AB800A7A885 /* SceneDelegate.swift */,
 				ACA00D7A25680AB800A7A885 /* ViewController.swift */,
+				ACA00DA82569071000A7A885 /* KakudaiViewController.swift */,
 				ACA00D7C25680AB800A7A885 /* Main.storyboard */,
 				ACA00D7F25680ABB00A7A885 /* Assets.xcassets */,
 				ACA00D8125680ABB00A7A885 /* LaunchScreen.storyboard */,
@@ -126,8 +129,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				ACA00D8325680ABB00A7A885 /* LaunchScreen.storyboard in Resources */,
-				ACA00D8025680ABB00A7A885 /* Assets.xcassets in Resources */,
 				ACA00D7E25680AB800A7A885 /* Main.storyboard in Resources */,
+				ACA00DA52568960200A7A885 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -141,6 +144,7 @@
 				ACA00D7B25680AB800A7A885 /* ViewController.swift in Sources */,
 				ACA00D7725680AB800A7A885 /* AppDelegate.swift in Sources */,
 				ACA00D7925680AB800A7A885 /* SceneDelegate.swift in Sources */,
+				ACA00DA92569071000A7A885 /* KakudaiViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
